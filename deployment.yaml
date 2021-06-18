@@ -33,4 +33,3 @@ spec:
     - port: 8761
       targetPort: 8761
   type: LoadBalancer
-  loadBalancerIP: "35.244.37.146"
