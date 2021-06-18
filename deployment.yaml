@@ -15,7 +15,7 @@ spec:
     spec:
      containers:
      - name: discovery-server
-       image: "shashimls276/discovery-server:2"
+       image: "shashimls276/discovery-server:latest"
        ports:
        - containerPort: 8761        
 
@@ -33,3 +33,4 @@ spec:
     - port: 8761
       targetPort: 8761
   type: LoadBalancer
+  loadBalancerIP: "203.0.113.32"
